@@ -1,0 +1,26 @@
+mysql -u root -p
+
+mysql>show databases;
+test
+common
+.
+.
+.
+mysql>use test;
+mysql>create database google;
+mysql>show databases;
+test
+common
+google
+.
+.
+.
+mysql>use google;
+mysql>show tables;
+table1
+table2
+mysql>create table student(id int,student_name varchar(200));
+
+CREATE TABLE `google`.`student` ( `id` INT NOT NULL AUTO_INCREMENT , `student_name` VARCHAR(200) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+mysql>desc student;

@@ -1,0 +1,5 @@
+mysql>use google;
+mysql>desc student;
+mysql>select student_name from student;
+
+mysql>insert into student(student_name) values("akshath");
