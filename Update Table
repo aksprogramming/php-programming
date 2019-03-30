@@ -1,0 +1,7 @@
+Update Table 
+
+mysql>update student set student_name='krishna' where id='2';
+
+mysql>select * from student;
+
+mysql>ALTER TABLE student CHANGE student_name student_name VARCHAR(300) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;

@@ -1,0 +1,12 @@
+Delete & Drop Table
+--------------------
+
+mysql>delete from student where id=2;
+
+mysql>select * from student;
+
+
+mysql>drop table student;
+
+mysql>drop database google;
+
